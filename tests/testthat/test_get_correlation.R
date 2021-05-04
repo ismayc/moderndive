@@ -17,7 +17,8 @@ group_cor <- grdf %>% summarize(cor = cor(vec1, vec2))
 test_that("arguments are appropriate", {
   # vec1 is not a df. vec1 is one column in the df
   expect_error(
-    get_correlation(vec1,
+    get_correlation(
+         vec1,
                     formula = vec1 ~ NULL
     )
   )
