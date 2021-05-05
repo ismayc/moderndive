@@ -22,6 +22,9 @@ test_that("arguments are appropriate", {
     )
   )
   
+  
+  
+  
   expect_error(
     df %>%
       get_correlation(formula = vec1 ~ NULL)
