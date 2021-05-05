@@ -65,7 +65,7 @@
 #'   geom_histogram(binwidth = 0.05) +
 #'   labs(
 #'     x = expression(hat(p)), y = "Number of samples",
-#'     title = "Sampling distribution of p_hat based 10 samples of size n = 50"
+#'     title = "Sampling distribution of p_hat based on 10 samples of size n = 50"
 #'   )
 "bowl_samples"
 
